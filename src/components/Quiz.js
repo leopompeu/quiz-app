@@ -22,6 +22,15 @@ const Quiz = ({ questions, onReset }) => {
     return questions[randomIndex];
   };
 
+  // Garantir que a pergunta seja sempre diferente da anterior
+  const getNewRandomQuestion = () => {
+    let newQuestion;
+    do {
+      newQuestion = getRandomQuestion();
+    } while (currentQuestion && newQuestion.id === currentQuestion.id);
+    return newQuestion;
+  };
+
   // Inicializar com uma pergunta aleatória
   React.useEffect(() => {
     if (!currentQuestion) {
@@ -65,7 +74,7 @@ const Quiz = ({ questions, onReset }) => {
     
     // Simular carregamento e sortear nova pergunta
     setTimeout(() => {
-      setCurrentQuestion(getRandomQuestion());
+      setCurrentQuestion(getNewRandomQuestion());
       setIsLoading(false);
     }, 1000);
   };
@@ -143,7 +152,7 @@ const Quiz = ({ questions, onReset }) => {
                 className="btn-secondary" 
                 onClick={onReset}
               >
-                Voltar ao Início
+                🏠 Voltar ao Início
               </button>
             </div>
           </div>

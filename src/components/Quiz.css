@@ -1,9 +1,10 @@
 .quiz-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background: #1A1A1A;
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .quiz-header {
@@ -46,8 +47,8 @@
 
 .lumia-logo-small .logo-text {
   font-size: 1.5rem;
-  font-weight: 900;
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  font-weight: 700;
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -67,7 +68,7 @@
 .quiz-title h1 {
   font-size: 2rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -97,7 +98,7 @@
 }
 
 .btn-nav {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   color: #ffffff;
   border: none;
   padding: 0.8rem 1.5rem;

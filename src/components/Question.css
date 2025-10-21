@@ -1,5 +1,6 @@
 .question-container {
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .question-header {
@@ -12,7 +13,7 @@
 }
 
 .question-number {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -91,14 +92,14 @@
 }
 
 .option.selected {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   border-color: #00d4aa;
   color: #ffffff;
   box-shadow: 0 4px 15px rgba(0, 212, 170, 0.3);
 }
 
 .option.correct {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   border-color: #00d4aa;
   color: #ffffff;
   box-shadow: 0 4px 15px rgba(0, 212, 170, 0.3);

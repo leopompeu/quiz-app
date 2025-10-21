@@ -1,7 +1,8 @@
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-  color: #ffffff;
+  background: #1A1A1A;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Hero Section */
@@ -50,14 +51,14 @@
 
 .logo-text {
   font-size: 4rem;
-  font-weight: 900;
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  font-weight: 700;
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 0.5rem;
   letter-spacing: 0.2em;
-  text-shadow: 0 0 30px rgba(0, 212, 170, 0.3);
+  text-shadow: 0 0 30px rgba(0, 200, 200, 0.3);
 }
 
 .logo-subtitle {
@@ -80,7 +81,7 @@
 }
 
 .highlight {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,8 +101,8 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #00d4aa 0%, #00a8cc 100%);
-  color: #ffffff;
+  background: linear-gradient(135deg, #00C8C8 0%, #00BFFF 100%);
+  color: #FFFFFF;
   border: none;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -109,12 +110,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 212, 170, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 200, 200, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 212, 170, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 200, 200, 0.4);
 }
 
 .btn-secondary {
@@ -130,8 +131,8 @@
 }
 
 .btn-secondary:hover {
-  border-color: #00d4aa;
-  color: #00d4aa;
+  border-color: #00C8C8;
+  color: #00C8C8;
 }
 
 .hero-visual {
